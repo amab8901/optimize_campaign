@@ -1,5 +1,5 @@
 # optimize_campaign
 
-Den här lösningen är inte exakt, utan den baseras på ansatser om vilka lösningar som är mest sannolika, och sen kan man göra en liten ändring i koden om högre precision krävs (men då kommer det också vara mer beräkningsintensivt). Precisionen är tillräckligt hög för att passera de testfall som du gav mig.
+This solution isn't exact, but rather is based on assumptions about which solutions are the most likely. You can make small changes in the code if higher precision is requred (but then it will also be more computationally intensive). The precision is sufficiently high to give optimal solution in most cases (or approximately optimal solution in edge cases). 
 
-I projektmappen finns det filer som heter "input1.txt", "input2.txt", osv. Varje sådan fil är input för ett testfall. Man använder programmet genom att skriva  t.ex. "cargo run input3.txt" i terminalen (utan citattecken), och då ska working directory vara lika med projektmappen. Om ni vill tillämpa flera testfall, så är det bara att stoppa in fler input-filer av samma format som "input1.txt" osv. 
+In the project folder, there is a file called `input1.txt`, `input2.txt`, etc. Each such file is input for a test case. You use the program by entering for example `cargo run input3.txt` in the terminal, and in that case the working directory needs to be equal to the project folder. If you want to apply other test cases, then you can insert more input folders of same format as `input1.txt`, etc.
